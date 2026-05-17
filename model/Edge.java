@@ -8,11 +8,6 @@ public class Edge {
         this.source = source;
         this.target = target;
     }
-
-    @Override
-    public String toString(){
-        return source + "->" + target;
-    }
     
     public String getSource() {
         return source;
@@ -20,5 +15,10 @@ public class Edge {
 
     public String getTarget() {
         return target;
+    }
+
+    @Override
+    public String toString(){
+        return source + "->" + target;
     }
 } 
